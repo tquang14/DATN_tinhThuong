@@ -2,13 +2,14 @@
     <qresource prefix="/views">
         <file alias="main.qml">Product/gui/views/main.qml</file>
         <file alias="Home.qml">Product/gui/views/Home.qml</file>
-        <file alias="Page1Form.qml">Product/gui/views/Page1Form.qml</file>
-        <file alias="Page2Form.qml">Product/gui/views/Page2Form.qml</file>
+        <file alias="Admin.qml">Product/gui/views/Admin.qml</file>
+        <file alias="Order.qml">Product/gui/views/Order.qml</file>
     </qresource>
     <qresource prefix="/Styling">
         <file alias="qtquickcontrols2.conf">Product/gui/Styling/qtquickcontrols2.conf</file>
         <file alias="Styling.qml">Product/gui/Styling/Styling.qml</file>
         <file alias="qmldir">Product/gui/Styling/qmldir</file>
+        <file alias="Animation.qml">Product/gui/Styling/Animation.qml</file>
     </qresource>
     <qresource prefix="/components">
         <file alias="MyButton.qml">Product/gui/components/MyButton.qml</file>

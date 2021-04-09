@@ -4,7 +4,7 @@ import "../Styling"
 
 Item {
     id:root
-//    signal btnClicked(var identify)
+    signal btnClicked(var identify)
     property string textContent: ""
     property string textContentSize: Styling._SIZE_F2
     property string textContentColor: Styling._BACKGOUND_COLOR
@@ -32,8 +32,10 @@ Item {
         font.family: root.textContent
         color: root.textContentColor
     }
-
-//    function onClicked() {
-//        btnClicked("a")
-//    }
+    MouseArea {
+        anchors.fill: parent
+        onClicked: {
+            btnClicked(textContent)
+        }
+    }
 }

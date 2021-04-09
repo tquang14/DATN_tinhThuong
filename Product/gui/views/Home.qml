@@ -5,6 +5,7 @@ import "../components"
 Page {
     width: Styling._DISPLAY_WIDTH
     height: Styling._DISPLAY_HEIGHT
+    signal requestChangePage(var identify)
     background: Rectangle {
         color: Styling._BACKGOUND_COLOR
     }
@@ -36,11 +37,6 @@ Page {
         anchors.leftMargin: 50
         width: parent.width - img.width
         height: childrenRect.height
-//        Rectangle {
-//            anchors.fill: parent
-//            color: "green"
-//            opacity: 0.3
-//        }
         Text {
             id: title
             text: Styling._HOME_TITLE
@@ -66,15 +62,19 @@ Page {
             anchors.horizontalCenter: subTitle.horizontalCenter
             spacing: 15
             MyButton {
-                textContent: "ADMIN"
+                textContent: Styling._ADMIN
+                onBtnClicked: {
+                    requestChangePage(identify)
+                }
             }
 
             MyButton {
-                textContent: "ORDER NOW"
+                textContent: Styling._ORDER_NOW
+                onBtnClicked: {
+                    requestChangePage(identify)
+                }
             }
         }
     }
-
     title: qsTr("Nhà hàng KMT")
-
 }
