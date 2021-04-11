@@ -14,7 +14,7 @@ Page {
         id: sideColor
         color: Styling._COLOR_RED
         anchors.right: parent.right
-        width: 240
+        width: Styling._RIGHT_CONTENT_WIDTH
         height: parent.height
     }
     //Image represent home page

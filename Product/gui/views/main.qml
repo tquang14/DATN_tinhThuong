@@ -20,19 +20,19 @@ ApplicationWindow {
                     stackView.push(orderPage)
             }
         }
-        Component  {
-            Admin {
+    }
+    Component  {
+        Admin {
 
-            }
-
-            id: adminPage
         }
-        Component  {
-            Order {
 
-            }
+        id: adminPage
+    }
+    Component  {
+        Order {
 
-            id: orderPage
         }
+
+        id: orderPage
     }
 }
