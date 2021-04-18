@@ -14,9 +14,12 @@ QtObject {
     //color
     readonly property color _BACKGOUND_COLOR: "#efefef"
     readonly property color _COLOR_RED: "#bc1823"
+    readonly property color _COLOR_LIGHT_RED: "#ed1c24"
     readonly property color _COLOR_BLACK: "#000000"
     readonly property color _COLOR_WHITE: "#ffffff"
     readonly property color _COLOR_ORANGE: "#fab919"
+    readonly property color _COLOR_YELLOW: "#fff200"
+
     //Font
     readonly property string _DEFAULT_FONT: "Comic Sans MS"
     //text size

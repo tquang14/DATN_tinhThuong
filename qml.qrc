@@ -13,7 +13,9 @@
     </qresource>
     <qresource prefix="/components">
         <file alias="MyButton.qml">Product/gui/components/MyButton.qml</file>
+        <file alias="DatePicker.qml">Product/gui/components/DatePicker.qml</file>
         <file alias="Card.qml">Product/gui/components/Card.qml</file>
+        <file alias="Table.qml">Product/gui/components/Table.qml</file>
         <file alias="qmldir">Product/gui/components/qmldir</file>
     </qresource>
 </RCC>
